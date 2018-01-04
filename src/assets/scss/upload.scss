@@ -1,0 +1,44 @@
+.upload-panel {
+  position: relative;
+}
+
+.upload-panel > span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.upload-panel .upload-selector {
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  overflow: hidden;
+  position: relative;
+  height: 30px;
+
+  input[type="text"] {
+    width: 200px;
+    float: left;
+    vertical-align: middle;
+    height: 30px;
+  }
+
+  input[type="file"] {
+    // visibility: hidden;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    font-size: 200px !important;
+    direction: ltr;
+    cursor: pointer;
+  }
+
+}
+.textBtnblue{
+  height: 30px;
+  line-height: 0;
+  margin-left: 20px;
+}

@@ -1,0 +1,12 @@
+.DS_Store
+.DS_Store.*
+node_modules/
+dist/
+npm-debug.*
+test/unit/coverage
+test/e2e/reports
+selenium-debug.log
+.vscode/
+.idea
+.idea/
+.project
